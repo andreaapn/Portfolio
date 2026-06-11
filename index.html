@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio profissional de Andre Augusto, estudante de Ciência da Computação na CESAR School com interesse em cibersegurança.">
+    <meta name="author" content="Andre Augusto">
+    <title>Portfólio | Andre Augusto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&amp;display=swap">
+</head>
+<body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="cabecalho">
+        <div class="container cabecalho-conteudo">
+            <h1 class="logo"><a href="index.html">&lt;AndreAugusto/&gt;</a></h1>
+            <nav class="navegacao" aria-label="Navegação principal">
+                <ul>
+                    <li><a href="index.html" class="ativo" aria-current="page">Início</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="conteudo">
+        <section class="hero" aria-labelledby="titulo-hero">
+            <div class="container hero-grid">
+                <div class="hero-texto">
+                    <p class="saudacao">Olá, eu sou</p>
+                    <h2 id="titulo-hero">Andre Augusto</h2>
+                    <p class="cargo">Estudante de Ciência da Computação · CESAR School</p>
+                    <p class="descricao">
+                        Estou no primeiro período de Ciência da Computação,
+                        explorando <strong>Python</strong>, <strong>Arduino</strong>
+                        e desenvolvimento web. Aprendo construindo — e
+                        gosto de projetos que tenham impacto real nas
+                        pessoas.
+                    </p>
+                    <div class="botoes">
+                        <a href="projetos.html" class="botao botao-primario">Ver Projetos</a>
+                        <a href="#contato" class="botao botao-secundario">Contato</a>
+                    </div>
+                </div>
+                <div class="hero-canvas">
+                    <div class="canvas-foto-wrapper">
+                        <div id="sketch-holder" aria-hidden="true"></div>
+                        <img class="foto-perfil"
+                             src="imagens/andre-augusto.png"
+                             alt="Foto de Andre Augusto, jovem usando óculos de armação preta e camiseta listrada em preto e branco.">
+                    </div>
+                    <p class="legenda-canvas">Animação interativa em p5.js — passe o mouse</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="sobre" aria-labelledby="titulo-sobre">
+            <div class="container">
+                <h2 id="titulo-sobre">Sobre Mim</h2>
+                <article class="sobre-texto">
+                    <p>
+                        Sou <strong>Andre Augusto</strong>, aluno do
+                        primeiro período de <strong>Ciência da Computação
+                        na CESAR School</strong>. Estou aprofundando minhas
+                        bases em <strong>Python</strong> — através de um
+                        projeto CRUD completo na cadeira de Fundamentos de
+                        Programação — e em <strong>Arduino com C/C++</strong>,
+                        no projeto interdisciplinar voltado à acessibilidade.
+                    </p>
+                    <p>
+                        Recentemente concluí o curso de
+                        <strong>JavaScript Essentials 1</strong> pela Cisco
+                        Networking Academy, em parceria com a CESAR School.
+                        Tenho também <em>interesse</em> em
+                        <strong>cibersegurança</strong> como área futura de
+                        estudo, mas ainda não cursei disciplinas
+                        específicas.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="interesses" aria-labelledby="titulo-interesses">
+            <div class="container">
+                <h2 id="titulo-interesses">Interesses Profissionais</h2>
+                <ul class="cards-grid">
+                    <li class="card">
+                        <h3>Programação em Python</h3>
+                        <p>
+                            Domínio crescente da linguagem, aplicado a
+                            projetos com CRUD, persistência em arquivo,
+                            modularização e integração de APIs.
+                        </p>
+                    </li>
+                    <li class="card">
+                        <h3>Arduino &amp; Eletrônica</h3>
+                        <p>
+                            Programação de microcontroladores em C/C++ e
+                            integração de hardware a propostas de design,
+                            como no projeto de acessibilidade.
+                        </p>
+                    </li>
+                    <li class="card">
+                        <h3>Acessibilidade &amp; Inclusão</h3>
+                        <p>
+                            Projetar tecnologia que respeite diferentes
+                            habilidades e amplie o acesso de todos à
+                            informação e ao entretenimento.
+                        </p>
+                    </li>
+                    <li class="card">
+                        <h3>Cibersegurança (interesse futuro)</h3>
+                        <p>
+                            Área que pretendo aprofundar ao longo do curso:
+                            defesa de sistemas, criptografia e análise de
+                            vulnerabilidades.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="habilidades" aria-labelledby="titulo-habilidades">
+            <div class="container">
+                <h2 id="titulo-habilidades">Habilidades</h2>
+                <div class="habilidades-flex">
+                    <article class="habilidade">
+                        <h3>Python</h3>
+                        <div class="barra" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" aria-label="Nível em Python: 80 por cento">
+                            <span class="preenchimento" style="width: 80%;"></span>
+                        </div>
+                    </article>
+                    <article class="habilidade">
+                        <h3>Arduino &amp; C/C++</h3>
+                        <div class="barra" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" aria-label="Nível em Arduino e linguagem C/C++: 70 por cento">
+                            <span class="preenchimento" style="width: 70%;"></span>
+                        </div>
+                    </article>
+                    <article class="habilidade">
+                        <h3>JavaScript</h3>
+                        <div class="barra" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" aria-label="Nível em JavaScript: 65 por cento">
+                            <span class="preenchimento" style="width: 65%;"></span>
+                        </div>
+                    </article>
+                    <article class="habilidade">
+                        <h3>HTML &amp; CSS</h3>
+                        <div class="barra" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" aria-label="Nível em HTML e CSS: 60 por cento">
+                            <span class="preenchimento" style="width: 60%;"></span>
+                        </div>
+                    </article>
+                    <article class="habilidade">
+                        <h3>Git &amp; GitHub</h3>
+                        <div class="barra" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" aria-label="Nível em Git e GitHub: 55 por cento">
+                            <span class="preenchimento" style="width: 55%;"></span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="certificados" aria-labelledby="titulo-certificados">
+            <div class="container">
+                <h2 id="titulo-certificados">Certificações</h2>
+                <article class="certificado-card">
+                    <figure class="certificado-figura">
+                        <img src="imagens/certificado-cisco-js.png"
+                             alt="Certificado de conclusão do curso JavaScript Essentials 1, emitido pela Cisco Networking Academy em parceria com a CESAR School em 29 de maio de 2026, para Andre Augusto.">
+                        <figcaption>Certificado emitido pela Cisco Networking Academy em parceria com a CESAR School.</figcaption>
+                    </figure>
+                    <div class="certificado-info">
+                        <p class="tag-projeto">Cisco Networking Academy</p>
+                        <h3>JavaScript Essentials 1</h3>
+                        <p>
+                            Curso oficial sobre os fundamentos de
+                            JavaScript, ofertado pela <strong>CESAR
+                            School</strong> através do programa Cisco
+                            Networking Academy. Cobre tipos, estruturas de
+                            controle, funções, manipulação de objetos e
+                            práticas modernas da linguagem.
+                        </p>
+                        <dl class="meta-certificado">
+                            <dt>Conclusão</dt>
+                            <dd>29 de maio de 2026</dd>
+                            <dt>Instrutor</dt>
+                            <dd>Erick Simões</dd>
+                            <dt>Instituição</dt>
+                            <dd>CESAR School</dd>
+                        </dl>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="estudos" aria-labelledby="titulo-estudos">
+            <div class="container">
+                <h2 id="titulo-estudos">Materiais de Estudo</h2>
+                <p class="subtitulo">Links que utilizo para continuar aprendendo:</p>
+                <ul class="lista-links">
+                    <li>
+                        <a href="https://docs.python.org/pt-br/3/tutorial/index.html" target="_blank" rel="noopener noreferrer">
+                            Tutorial oficial do Python
+                        </a>
+                        <span> — primeira parada para fundamentos da linguagem.</span>
+                    </li>
+                    <li>
+                        <a href="https://realpython.com/" target="_blank" rel="noopener noreferrer">
+                            Real Python
+                        </a>
+                        <span> — tutoriais aprofundados de Python intermediário e avançado.</span>
+                    </li>
+                    <li>
+                        <a href="https://docs.arduino.cc/" target="_blank" rel="noopener noreferrer">
+                            Documentação oficial do Arduino
+                        </a>
+                        <span> — referência de hardware, bibliotecas e linguagem.</span>
+                    </li>
+                    <li>
+                        <a href="https://www.arduino.cc/reference/pt/" target="_blank" rel="noopener noreferrer">
+                            Arduino Language Reference (PT)
+                        </a>
+                        <span> — sintaxe e funções da linguagem Arduino (C/C++).</span>
+                    </li>
+                    <li>
+                        <a href="https://www.netacad.com/" target="_blank" rel="noopener noreferrer">
+                            Cisco Networking Academy
+                        </a>
+                        <span> — plataforma onde concluí o curso de JavaScript.</span>
+                    </li>
+                    <li>
+                        <a href="https://developer.mozilla.org/pt-BR/" target="_blank" rel="noopener noreferrer">
+                            MDN Web Docs
+                        </a>
+                        <span> — referência sólida para HTML, CSS e JavaScript.</span>
+                    </li>
+                    <li>
+                        <a href="https://www.w3.org/WAI/" target="_blank" rel="noopener noreferrer">
+                            W3C Web Accessibility Initiative
+                        </a>
+                        <span> — referência para acessibilidade em projetos digitais.</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contato" class="contato" aria-labelledby="titulo-contato">
+            <div class="container contato-grid">
+                <div>
+                    <h2 id="titulo-contato">Vamos conversar?</h2>
+                    <p>
+                        Tem uma ideia, oportunidade ou apenas quer trocar
+                        figurinhas sobre código? Entre em contato pelos
+                        canais ao lado.
+                    </p>
+                </div>
+                <address class="cartao-contato">
+                    <ul>
+                        <li>
+                            <strong>E-mail:</strong>
+                            <a href="mailto:aaapn@cesar.school">aaapn@cesar.school</a>
+                        </li>
+                        <li>
+                            <strong>GitHub:</strong>
+                            <a href="https://github.com/combxtz" target="_blank" rel="noopener noreferrer">github.com/combxtz</a>
+                        </li>
+                        <li>
+                            <strong>LinkedIn:</strong>
+                            <a href="https://www.linkedin.com/in/andr%C3%A9-augusto-de-ara%C3%BAjo/" target="_blank" rel="noopener noreferrer">linkedin.com/in/andré-augusto-de-araújo</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="container">
+            <p>&copy; 2026 Andre Augusto. Construído com HTML, CSS e JavaScript.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

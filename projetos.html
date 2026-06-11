@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projetos acadêmicos de Andre Augusto: Ver Além do Jogo (jogo de mesa acessível com Arduino) e Hyrox (Python, Fundamentos de Programação) — CESAR School.">
+    <meta name="author" content="Andre Augusto">
+    <title>Projetos | Andre Augusto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&amp;display=swap">
+</head>
+<body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="cabecalho">
+        <div class="container cabecalho-conteudo">
+            <h1 class="logo"><a href="index.html">&lt;AndreAugusto/&gt;</a></h1>
+            <nav class="navegacao" aria-label="Navegação principal">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="projetos.html" class="ativo" aria-current="page">Projetos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="conteudo">
+        <section class="hero hero-pequeno">
+            <div class="container">
+                <p class="saudacao">Portfólio</p>
+                <h2>Projetos</h2>
+                <p class="descricao">
+                    Uma seleção de trabalhos acadêmicos que reflete meus
+                    interesses em computação aplicada a desafios reais —
+                    do hardware embarcado à programação em alto nível.
+                </p>
+                <nav class="indice-projetos" aria-label="Índice de projetos">
+                    <ul>
+                        <li><a href="#projeto-1">01 · Ver Além do Jogo</a></li>
+                        <li><a href="#projeto-2">02 · HYROX Planner</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+
+        <section id="projeto-1" class="projeto-detalhe" aria-labelledby="titulo-projeto-1">
+            <div class="container projeto-grid">
+                <article class="projeto-conteudo">
+                    <p class="tag-projeto">Projeto 01 — Em destaque</p>
+                    <h2 id="titulo-projeto-1">Ver Além do Jogo</h2>
+                    <p class="cargo">Jogo de mesa acessível para pessoas com deficiência visual</p>
+
+                    <aside class="callout callout-mostra" role="note">
+                        <p>
+                            <strong>★ Selecionado para a Mostra Tech Design da CESAR School.</strong>
+                            O projeto será exibido como artefato final da
+                            disciplina, integrando alunos de
+                            <strong>Ciência da Computação</strong> e
+                            <strong>Design</strong>.
+                        </p>
+                    </aside>
+
+                    <figure class="figura-projeto">
+                        <img src="imagens/jogo-acessibilidade.png"
+                             alt="Vista superior de um jogo de mesa em formato de caixa branca de madeira, com bordas pintadas em azul, quatro botões circulares contendo formas geométricas em alto-relevo (pentágono verde, círculo vermelho, cruz marrom e triângulo amarelo) e um círculo central preto.">
+                        <figcaption>
+                            Protótipo físico do jogo: formas em alto-relevo,
+                            cores contrastantes e setas direcionais para
+                            apoiar jogadores com cegueira parcial.
+                        </figcaption>
+                    </figure>
+
+                    <h3>Contexto</h3>
+                    <p class="descricao-projeto">
+                        A acessibilidade nos jogos é fundamental para
+                        garantir que pessoas com diferentes habilidades
+                        possam jogar de forma inclusiva. Muitos jogos ainda
+                        são desenvolvidos com foco excessivo na experiência
+                        visual, o que pode limitar o acesso e o
+                        entretenimento de pessoas com deficiência visual.
+                    </p>
+                    <p>
+                        Diante disso, o desafio escolhido por nossos
+                        orientadores foi a <strong>acessibilidade nos jogos
+                        voltada à acessibilidade visual</strong>. Ao longo
+                        do projeto, buscamos compreender as principais
+                        barreiras enfrentadas por esses jogadores e
+                        investigar soluções a partir do design e das
+                        ciências da computação que promovam
+                        <em>autonomia</em>, <em>imersão</em> e
+                        <em>igualdade de experiência</em>.
+                    </p>
+
+                    <h3>Solução desenvolvida</h3>
+                    <p>
+                        Um <strong>jogo de mesa físico</strong> projetado
+                        para pessoas com <strong>cegueira parcial</strong>.
+                        O artefato combina elementos táteis, visuais de
+                        alto contraste e <strong>retorno sonoro</strong>
+                        (instruções dubladas) para apoiar diferentes graus
+                        de visão residual.
+                    </p>
+
+                    <aside class="callout">
+                        <p>
+                            <strong>Curiosidade técnica:</strong>
+                            o jogo é controlado por uma placa
+                            <strong>Arduino</strong>, programada em
+                            <strong>C/C++</strong>. A eletrônica embarcada
+                            permite que o tabuleiro reaja às ações dos
+                            jogadores e ofereça feedback compatível com a
+                            proposta de acessibilidade.
+                        </p>
+                    </aside>
+
+                    <h3>Equipe e metodologia</h3>
+                    <p>
+                        O projeto foi conduzido por uma <strong>equipe
+                        multidisciplinar</strong> composta por estudantes
+                        de Ciência da Computação e de Design da CESAR
+                        School. A condução adotou
+                        <strong>metodologias ágeis</strong>, apoiadas por
+                        plataformas como o <strong>Jira</strong>:
+                    </p>
+                    <ul class="lista-checks">
+                        <li><strong>Kickoff</strong> formal para alinhamento de visão, papéis e cronograma.</li>
+                        <li><strong>Backlog</strong> estruturado no Jira, com priorização contínua de tarefas.</li>
+                        <li><strong>Reuniões semanais</strong> de acompanhamento, revisão e replanejamento.</li>
+                        <li>Colaboração transversal entre <em>desenvolvimento</em>, <em>design</em> e <em>pesquisa</em>.</li>
+                        <li>Pesquisa específica sobre os <strong>textos a serem narrados</strong> no jogo (locução / dublagem).</li>
+                    </ul>
+
+                    <h3>Processo de prototipagem</h3>
+                    <p>
+                        A solução evoluiu em ciclos curtos, partindo de
+                        protótipos baratos para validações rápidas até
+                        chegar à versão funcional construída em madeira:
+                    </p>
+
+                    <ol class="timeline-prototipos">
+                        <li>
+                            <span class="timeline-step">01</span>
+                            <div>
+                                <h4>Kickoff &amp; protótipo de baixa fidelidade</h4>
+                                <p>Primeiro modelo em <strong>papelão</strong>, não funcional, para validar dimensões, posicionamento de elementos e zonas de toque.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="timeline-step">02</span>
+                            <div>
+                                <h4>Prototipação digital (Figma + 3D)</h4>
+                                <p>Telas e componentes desenhados no <strong>Figma</strong>, com modelagem 3D para validar formas, alto-falantes embutidos e botões em alto-relevo.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="timeline-step">03</span>
+                            <div>
+                                <h4>Pesquisa de áudio e narração</h4>
+                                <p>Levantamento das instruções faladas, definição do roteiro de dublagem e ajustes para clareza sonora.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="timeline-step">04</span>
+                            <div>
+                                <h4>Protótipo funcional final</h4>
+                                <p>Construção em madeira pintada com botões em alto-relevo, eletrônica em <strong>Arduino</strong> e saída de áudio integrada.</p>
+                            </div>
+                        </li>
+                    </ol>
+
+                    <h3>Galeria do processo</h3>
+                    <div class="galeria-prototipos">
+                        <figure>
+                            <img src="imagens/jogo-prototipo-papelao.png"
+                                 alt="Protótipo não funcional construído em papelão pintado de branco, com domo central laranja, quatro suportes circulares para peças com formas coloridas, ícones desenhados de alto-falante e botão liga/desliga.">
+                            <figcaption>Protótipo não funcional em papelão (kickoff).</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imagens/jogo-3d-topo.png"
+                                 alt="Modelo 3D do jogo em vista superior, mostrando uma caixa branca com cantos azuis, quatro entradas circulares azul-escuro, setas direcionais azuis convergindo para o centro e um botão vermelho com a palavra START.">
+                            <figcaption>Modelo 3D — vista superior do tabuleiro.</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imagens/jogo-3d-pecas.png"
+                                 alt="Modelo 3D das peças do jogo em diferentes formas e cores: quadrado azul, hexágonos verde e amarelo, triângulos vermelho e laranja, cruz marrom, pentágono e estrela roxa, sobre bases circulares pretas, ao lado de quatro suportes circulares azuis empilhados.">
+                            <figcaption>Modelo 3D — peças coloridas em alto-relevo.</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="imagens/jogo-3d-lateral.png"
+                                 alt="Modelo 3D do jogo em vista lateral, mostrando dois alto-falantes circulares embutidos na lateral da caixa branca, cantos azuis e topo do botão vermelho central visível.">
+                            <figcaption>Modelo 3D — alto-falantes laterais.</figcaption>
+                        </figure>
+                    </div>
+
+                    <h3>Características de acessibilidade</h3>
+                    <ul class="lista-checks">
+                        <li>Formas geométricas em <strong>alto-relevo</strong> que podem ser identificadas pelo tato.</li>
+                        <li><strong>Cores de alto contraste</strong> sobre base branca para jogadores com baixa visão.</li>
+                        <li><strong>Setas direcionais</strong> apontando para o centro, oferecendo orientação espacial clara.</li>
+                        <li><strong>Disposição simétrica</strong> dos botões, facilitando a memorização das posições.</li>
+                        <li><strong>Áudio integrado</strong>: alto-falantes embutidos para instruções e feedback narrados.</li>
+                        <li>Eletrônica embarcada em <strong>Arduino</strong> para reagir às ações dos jogadores.</li>
+                    </ul>
+
+                    <h3>Tecnologias e áreas envolvidas</h3>
+                    <ul class="tags-tecnologia">
+                        <li>Arduino</li>
+                        <li>C / C++</li>
+                        <li>Eletrônica embarcada</li>
+                        <li>Figma</li>
+                        <li>Modelagem 3D</li>
+                        <li>Jira</li>
+                        <li>Metodologias ágeis</li>
+                        <li>Design Inclusivo</li>
+                        <li>Pesquisa com usuários</li>
+                    </ul>
+
+                    <h3>Aprendizados</h3>
+                    <p>
+                        O projeto reforçou a importância de
+                        <em>pensar a tecnologia a partir das pessoas</em> e
+                        mostrou como decisões aparentemente simples — uma
+                        textura, um contraste, uma seta — podem transformar
+                        a experiência de quem joga. Foi também a primeira
+                        oportunidade de programar microcontroladores,
+                        trabalhar com uma <strong>equipe multidisciplinar
+                        ágil</strong> e ver um produto evoluir desde o
+                        papelão até o protótipo final.
+                    </p>
+
+                    <div class="botoes">
+                        <a href="https://sites.google.com/cesar.school/projeto1-ver-alem-do-jogo/home" target="_blank" rel="noopener noreferrer" class="botao botao-primario">
+                            Site oficial do projeto
+                        </a>
+                        <a href="index.html#contato" class="botao botao-secundario">Conversar sobre o projeto</a>
+                    </div>
+                </article>
+
+                <aside class="projeto-sidebar" aria-label="Resumo do projeto Ver Além do Jogo">
+                    <h3>Resumo</h3>
+                    <dl>
+                        <dt>Tipo</dt>
+                        <dd>Jogo de mesa físico interativo</dd>
+                        <dt>Público</dt>
+                        <dd>Pessoas com cegueira parcial</dd>
+                        <dt>Foco</dt>
+                        <dd>Acessibilidade visual</dd>
+                        <dt>Hardware</dt>
+                        <dd>Arduino</dd>
+                        <dt>Linguagem</dt>
+                        <dd>C / C++</dd>
+                        <dt>Design</dt>
+                        <dd>Figma · Modelagem 3D</dd>
+                        <dt>Metodologia</dt>
+                        <dd>Ágil · Jira · Reuniões semanais</dd>
+                        <dt>Equipe</dt>
+                        <dd>CC + Design · CESAR School</dd>
+                        <dt>Exibição</dt>
+                        <dd>Mostra Tech Design</dd>
+                    </dl>
+
+                    <div class="destaque-sidebar">
+                        <h4>Princípios aplicados</h4>
+                        <ul>
+                            <li>Autonomia</li>
+                            <li>Imersão</li>
+                            <li>Igualdade de experiência</li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <section id="projeto-2" class="projeto-detalhe projeto-detalhe-alt" aria-labelledby="titulo-projeto-2">
+            <div class="container projeto-grid">
+                <article class="projeto-conteudo">
+                    <p class="tag-projeto">Projeto 02</p>
+                    <h2 id="titulo-projeto-2">HYROX Planner</h2>
+                    <p class="cargo">Cadeira de Fundamentos de Programação · CESAR School</p>
+
+                    <h3>Sobre</h3>
+                    <p class="descricao-projeto">
+                        Aplicação de linha de comando, escrita em
+                        <strong>Python</strong>, voltada para atletas e
+                        praticantes de <em>HYROX</em> — modalidade que
+                        combina corrida e estações de força. O sistema
+                        permite criar e acompanhar planos de treino,
+                        registrar performances, planejar competições e
+                        receber sugestões de um agente de IA.
+                    </p>
+
+                    <aside class="callout">
+                        <p>
+                            <strong>Requisito atendido — CRUD:</strong>
+                            o projeto contempla, como exigido pela cadeira,
+                            todas as operações de
+                            <strong>Create</strong>,
+                            <strong>Read</strong>,
+                            <strong>Update</strong> e
+                            <strong>Delete</strong> sobre os planos de
+                            treino, com persistência em arquivo
+                            <code>data.json</code>.
+                        </p>
+                    </aside>
+
+                    <h3>Funcionalidades</h3>
+                    <ul class="lista-checks">
+                        <li><strong>Criar plano</strong> definindo nome, tipo (Race, Strength, HYROX Simulation), duração, intensidade (1 a 5) e data.</li>
+                        <li><strong>Visualizar planos</strong> com paginação e leitura detalhada, incluindo histórico de performance.</li>
+                        <li><strong>Editar plano</strong> com opção de pular campos individualmente.</li>
+                        <li><strong>Excluir plano</strong> com confirmação dupla para evitar perdas acidentais.</li>
+                        <li><strong>Gerenciar performance</strong>: registrar tempo, distância, peso e repetições por sessão.</li>
+                        <li><strong>Calculadora de IMC</strong> com classificação (de <em>Underweight</em> a <em>Morbidly Obese</em>).</li>
+                        <li><strong>Planejador de competições</strong> com contagem regressiva até o evento.</li>
+                        <li><strong>Relatório de progresso</strong> global e por plano, com tendências (melhor / pior / evolução).</li>
+                        <li><strong>Agente de IA</strong> que responde perguntas sobre cada plano específico.</li>
+                        <li><strong>Guia do usuário</strong> integrado e interface CLI colorida com códigos ANSI.</li>
+                    </ul>
+
+                    <h3>Arquitetura modular</h3>
+                    <p>
+                        O código é organizado em módulos com
+                        responsabilidades bem definidas:
+                    </p>
+                    <ul class="modulos-grid">
+                        <li>
+                            <h4><code>main.py</code></h4>
+                            <p>Menu principal e roteamento das ações.</p>
+                        </li>
+                        <li>
+                            <h4><code>crud.py</code></h4>
+                            <p>Criação, leitura, edição, exclusão e gestão de performance dos planos.</p>
+                        </li>
+                        <li>
+                            <h4><code>progress.py</code></h4>
+                            <p>Visão global e por plano com cálculo de tendências e médias.</p>
+                        </li>
+                        <li>
+                            <h4><code>agente.py</code></h4>
+                            <p>Integração com a API do Groq para análise inteligente dos planos.</p>
+                        </li>
+                        <li>
+                            <h4><code>calc.py</code></h4>
+                            <p>Calculadora de IMC com classificação clínica.</p>
+                        </li>
+                        <li>
+                            <h4><code>compet.py</code></h4>
+                            <p>Registro de competição e contagem regressiva (timezone-aware).</p>
+                        </li>
+                        <li>
+                            <h4><code>misc.py</code></h4>
+                            <p>Utilitários: persistência JSON, cores ANSI, <code>clamp</code>, cabeçalhos.</p>
+                        </li>
+                    </ul>
+
+                    <h3>Destaques técnicos</h3>
+                    <ul class="lista-checks">
+                        <li>Persistência em <strong>JSON</strong> com leitura/escrita seguras e fallback de criação do arquivo.</li>
+                        <li>Integração com <strong>Groq API</strong> usando o modelo <code>llama-3.3-70b-versatile</code>, com <em>streaming</em> de resposta.</li>
+                        <li>Tratamento de erros e <em>loops</em> de validação em todos os <code>input()</code>.</li>
+                        <li>Interface CLI com cores ANSI, cabeçalhos centralizados e mensagens de erro contextuais.</li>
+                        <li>Cálculo de tendências (▲ ▼ =) comparando primeira e última sessão de cada métrica.</li>
+                    </ul>
+
+                    <h3>Tecnologias</h3>
+                    <ul class="tags-tecnologia">
+                        <li>Python 3</li>
+                        <li>Groq API</li>
+                        <li>Llama 3.3 70B</li>
+                        <li>JSON</li>
+                        <li>ANSI / CLI</li>
+                        <li>Git &amp; GitHub</li>
+                    </ul>
+
+                    <h3>Aprendizados</h3>
+                    <p>
+                        Este projeto consolidou conceitos de
+                        <em>modularização</em>, <em>CRUD</em>, validação
+                        rigorosa de entradas, persistência em disco e a
+                        primeira experiência integrando uma <strong>API de
+                        IA generativa</strong> a um sistema próprio.
+                    </p>
+
+                    <div class="botoes">
+                        <a href="https://github.com/gum-gummii/cesar_dressing/tree/main/python/goddamn%20hyrox" target="_blank" rel="noopener noreferrer" class="botao botao-primario">
+                            Ver no GitHub
+                        </a>
+                        <a href="index.html" class="botao botao-secundario">Voltar ao início</a>
+                    </div>
+                </article>
+
+                <aside class="projeto-sidebar" aria-label="Resumo do projeto HYROX Planner">
+                    <h3>Resumo</h3>
+                    <dl>
+                        <dt>Tipo</dt>
+                        <dd>Aplicação CLI em Python</dd>
+                        <dt>Cadeira</dt>
+                        <dd>Fundamentos de Programação</dd>
+                        <dt>Domínio</dt>
+                        <dd>Treino esportivo (HYROX)</dd>
+                        <dt>Linguagem</dt>
+                        <dd>Python 3</dd>
+                        <dt>Persistência</dt>
+                        <dd>JSON</dd>
+                        <dt>IA</dt>
+                        <dd>Groq · Llama 3.3</dd>
+                        <dt>Contexto</dt>
+                        <dd>CESAR School — 1º período</dd>
+                    </dl>
+
+                    <div class="destaque-sidebar">
+                        <h4>Operações CRUD</h4>
+                        <ul>
+                            <li>Create — novo plano</li>
+                            <li>Read — visualizar planos</li>
+                            <li>Update — editar plano</li>
+                            <li>Delete — remover plano</li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <section class="outros-projetos" aria-labelledby="titulo-outros">
+            <div class="container">
+                <h2 id="titulo-outros">Outros estudos</h2>
+                <ul class="cards-grid">
+                    <li class="card">
+                        <h3>JavaScript Essentials 1 · Cisco</h3>
+                        <p>
+                            Conclusão do curso de JavaScript pela Cisco
+                            Networking Academy, em parceria com a CESAR
+                            School. Veja o
+                            <a href="index.html#titulo-certificados">certificado na página inicial</a>.
+                        </p>
+                    </li>
+                    <li class="card">
+                        <h3>Estudos em Cibersegurança</h3>
+                        <p>
+                            Exploração contínua de tópicos de segurança
+                            ofensiva e defensiva por meio de laboratórios
+                            práticos e leituras técnicas.
+                        </p>
+                    </li>
+                    <li class="card">
+                        <h3>Em breve</h3>
+                        <p>
+                            Novos artefatos do curso de Ciência da
+                            Computação serão publicados aqui à medida que
+                            avançam.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="container">
+            <p>&copy; 2026 Andre Augusto. Construído com HTML, CSS e JavaScript.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
